@@ -1,0 +1,15 @@
+{{ if .Site.Params.docs.enable}}
+{{"<!-- Start Call To Action -->" | safeHTML}}
+<section class="getting-started section-sm bg-1 overly" style='background-image: url("../images/backgrounds/dark.jpg");'>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                {{ with .Site.Params.docs.title}} <h2>{{ . }}</h2> {{ end }}
+                {{ with .Site.Params.docs.content }} <p>{{ . }}</p> {{ end }}
+                 <a href="{{ .Site.Params.start.btnURL }}" class="btn btn-main">{{ with .Site.Params.docs.btnText }} {{ . }} {{end}}</a>
+             </div>
+        </div>
+    </div>
+</section>
+{{"<!-- Start Services Section -->" | safeHTML}}
+{{ end }}

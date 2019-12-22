@@ -1,0 +1,65 @@
+enable : true
+heading : Enterprise
+headingSpan : Plans
+pricingTable :
+  - title : S
+    price : Free
+    btnURL : https://github.com/sakuli/sakuli
+    btnText : Github
+    plan :
+      
+      - planDetails : ∞ instances
+      - planDetails : Sakuli Core
+      - planDetails : Web-Tests
+      - planDetails : Native-Tests
+      
+  - title : M
+    price : € 100
+    time : /month
+    btnURL : #
+    btnText : Request
+    plan :
+      - planDetails : up to 4 instances
+      - planDetails : Professional Support
+      - planDetails : "Initial Reaction Time: 2BD"
+      - planDetails : "Support Cases: 1 / Month"
+      - planDetails : Sakuli Core
+      - planDetails : Web-Tests
+      - planDetails : Native-Tests
+      - planDetails : Monitoring Forwarder
+      - planDetails : Container
+      - planDetails : S2I Images
+      
+  - title : L
+    price : € 400
+    time : /month
+    btnURL : #
+    btnText : Request
+    plan :
+      - planDetails : up to 20 instances
+      - planDetails : Professional Support
+      - planDetails : "Initial Reaction Time: 8h"
+      - planDetails : "Support Cases: 3 / Month"
+      - planDetails : Sakuli Core
+      - planDetails : Web-Tests
+      - planDetails : Native-Tests
+      - planDetails : Monitoring Forwarder
+      - planDetails : Container
+      - planDetails : S2I Images
+      
+  - title : XL
+    price : on Request
+    time : 
+    btnURL : #
+    btnText : Contact Sales
+    plan :
+      - planDetails : up to ∞ instances
+      - planDetails : Professional Support
+      - planDetails : "Initial Reaction Time: 4h"
+      - planDetails : "Support Cases: up to 20 / Month"
+      - planDetails : Sakuli Core
+      - planDetails : Web-Tests
+      - planDetails : Native-Tests
+      - planDetails : Monitoring Forwarder
+      - planDetails : Container
+      - planDetails : S2I Images

@@ -1,0 +1,97 @@
+{{"<!-- end Contact Area -->" | safeHTML}}
+<footer id="footer" class="bg-one">
+	<div class="container">
+
+		<!-- upper part - pages -->
+		<div class=footer-upper>
+			{{ range .Site.Params.footerUpper.block }}
+			<div class=block-wrapper>
+				<div class=footer-upper-block>
+					<h1>{{ .heading }}</h1>
+					<div class="sepLine"></div>
+					<ul class="list-inline">
+						{{ range .link }}
+						<a href="{{ .url }}">{{ .title }}</a>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+	
+
+
+		<!-- lower part - logo links and copyright -->
+		<div class=footer-lower>
+			<div class="row wow fadeInUp" data-wow-duration="500ms">
+				<div class="col-xl-12">
+
+					<div style="text-align: center; padding-top: 10px;">
+						<div>
+							<a href="{{ .Site.BaseURL | absURL }}" style="display: inline; padding-right: 20px">
+								<img src="{{ .Site.Params.logo | absURL }}" width=150 alt="Meghna" />
+							</a>
+						
+
+							{{"<!-- Footer Social Links -->" | safeHTML}}
+							<div class="social-icon">
+								<ul class="list-inline">
+									{{ range .Site.Params.footerLower.socialIcon }}
+									<li class="list-inline-item"><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+									{{ end }}
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					{{"<!-- copyright -->" | safeHTML}}
+					<div class="copyright text-center">
+						
+						
+						<p>Designed and developed by <a href="https://www.consol.de/"> Consol </a> &copy; <script>
+								document.write(new Date().getFullYear())
+							</script>. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+{{"<!-- /footer -->" | safeHTML}}
+
+{{"<!-- Essential Scripts -->" | safeHTML}}
+
+		{{"<!-- Main jQuery -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/jquery/dist/jquery.min.js" | absURL}}"></script>
+		{{"<!-- Bootstrap 4.3 + Popper -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/bootstrap/dist/js/bootstrap.bundle.min.js" | absURL}}"></script>
+		{{"<!-- Slick Carousel -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
+		{{"<!-- Portfolio Filtering -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/filterzr/jquery.filterizr.min.js" | absURL}}"></script>
+		{{"<!-- Magnific popup -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/magnific-popup/dist/jquery.magnific-popup.min.js" | absURL}}"></script>
+		{{"<!-- Google Map API -->" | safeHTML}}
+		<script type="text/javascript"  src="{{ .Site.Params.gmapAPI | absURL }}"></script>
+		{{"<!-- Number Counter Script -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/count-to/jquery.countTo.js" | absURL}}"></script>
+		{{"<!-- wow.min Script -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/wow/dist/wow.min.js" | absURL}}"></script>
+		{{"<!-- Scroll behavior polyfill -->" | safeHTML}}
+		{{ $scroll := resources.Get "js/scroll-behavior-polyfill.js" | minify}}
+		<script src="{{ $scroll.Permalink }}"></script>
+		{{"<!-- Sweet Alert -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/sweet-alert/sweetalert.min.js" | absURL}}"></script>
+		{{"<!-- Custom js -->" | safeHTML}}
+		{{ $script := resources.Get "js/script.js" | minify}}
+		<script src="{{ $script.Permalink }}"></script>
+		{{ "<!-- google analitycs -->" | safeHTML }}
+		<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
+				ga('send', 'pageview');
+		</script>

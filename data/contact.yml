@@ -1,0 +1,21 @@
+enable : true
+heading : Get In
+headingSpan : Touch
+title : contact
+content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+enable_maps : true
+mapLatitude : 48.120566
+mapLongitude: 11.602530
+contactDetails :
+  - icon : tf-map-pin
+    info : "St.-Cajetan-Straße 43, 81669 München"
+    
+  - icon : tf-ion-ios-telephone-outline
+    info : "Phone: +49-89-45841-100"
+    
+  - icon : tf-ion-iphone
+    info : "Fax: +49-89-45841-111"
+    
+  - icon : tf-ion-ios-email-outline
+    info : "Email: info@consol.de"
+    

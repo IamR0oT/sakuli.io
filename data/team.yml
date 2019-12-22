@@ -1,0 +1,83 @@
+enable : true
+heading : Our
+headingSpan : Core-Team
+teamMember :
+  - image : images/team/nico.jpg
+    name : Nico Zellner
+    designation : Sales
+    description : 
+    socialIcon :
+      - icon : tf-ion-mail
+        url : "mailto:nico.zellner@consol.de"
+      - icon : tf-ion-social-github
+        url : "https://github.com/ZNicoZ"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/nicozellner"
+      - icon : tf-ion-social-xing
+        url : "https://www.xing.com/profile/Nico_Zellner/cv"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/nze_MUC"
+      
+  - image : images/team/simon.jpg
+    name : Simon Hoffman
+    designation : Software Engineer
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-github
+        url : "https://github.com/s1hofmann"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/s1hofmann"
+      
+  - image : images/team/tim.jpg
+    name : Tim Keiner
+    designation : Software Engineer
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-github
+        url : "https://github.com/tnobody"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/derKeiner"
+      
+  - image : images/team/sven.jpg
+    name : Sven Hettwer
+    designation : Software Engineer
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-github
+        url : "https://github.com/svettwer"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/SvenHettwer"
+  
+  - image : images/team/cliff.jpg
+    name : Cliff Le Van
+    designation : Software Engineer
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-github
+        url : "https://github.com/cliffle"
+  
+  - image : images/team/marlene.jpg
+    name : Marlene Kermani
+    designation : Trainee Software Engineering
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-twitter
+        url : "#"
+
+  - image : images/team/bogdan.jpg
+    name : Bogdan Bermel
+    designation : Marketing specialist
+    description : 
+    socialIcon :
+      - icon : tf-ion-social-github
+        url : "https://github.com/iamr0ot"
+
+  - image : images/team/julian.jpg
+    name : Julian Liebich
+    designation : AI specialist
+    description :
+    socialIcon :
+      - icon : tf-ion-social-twitter
+        url : "#"
+
+    

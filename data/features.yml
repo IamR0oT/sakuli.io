@@ -1,0 +1,24 @@
+enable : true
+heading : core
+headingSpan : features
+featuresItem : 
+- icon : tf-ion-android-search
+  title : Screenshot based interaction
+  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  URL: features/screenshot
+
+- icon : tf-ion-social-html5
+  title : DOM based interaction
+  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  URL: features/dom
+
+- icon : tf-ion-ios-monitor
+  title : Screen Sizes
+  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  URL: features/screensize
+
+- icon : tf-ion-android-arrow-down
+  title : Drag & Drop
+  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  URL: features/dragdrop
+

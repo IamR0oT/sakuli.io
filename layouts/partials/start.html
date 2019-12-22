@@ -1,0 +1,15 @@
+{{ if .Site.Params.start.enable}}
+{{"<!-- Start getting started -->" | safeHTML}}
+<section id="getting-started" class="getting-started section-sm bg-1 overly" style='background-image: url("../images/backgrounds/dark.jpg");'>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+               {{ with .Site.Params.start.title}} <h2>{{ . }}</h2> {{ end }}
+               {{ with .Site.Params.start.content }} <p>{{ . }}</p> {{ end }}
+                <a href="https://sakuli.io/docs/getting-started/" class="btn btn-main">{{ with .Site.Params.start.btnText }} {{ . }} {{end}}</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- End getting started -->" | safeHTML}}
+{{ end }}

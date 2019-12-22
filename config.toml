@@ -1,0 +1,181 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = ""
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+
+    [[menu.nav]]
+    name = "Docs"
+    URL = "https://sakuli.io/docs/getting-started/"
+    weight = 3
+
+    [[menu.nav]]
+    name = "About"
+    URL = "about"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Features"
+    URL = "feat"
+    weight = 7 
+
+    [[menu.nav]]
+    name = "Enterprise"
+    URL = "enterprise"
+    weight = 8
+
+    [[menu.nav]]
+    name = "News"
+    URL = "blog"
+    weight = 9
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 10
+
+# Site params
+[params]
+#home= "Home"
+logo = "images/logos/logo.svg"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Sakuli End2End Testing and Monitoring"
+author = ""
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/backgrounds/berg-big.jpg"
+    icon = "images/logos/logo-circle.svg"
+    heading = "The Pinacle of Testing!"
+    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    btn = true
+    btnText="ENTER"
+    btnURL="#getting-started"
+
+    # call to action
+    [params.start]
+    enable = true
+    title = "A small step for developers but giant leap for testing."
+    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    btnURL = "#getting-started"
+    btnText = "Getting started"
+
+    # OS support
+    [params.supported]
+    enable = true
+    title = "Supports"
+        [[params.supported.supportedItem]]
+        icon = "fab fa-windows fa-3x"
+        info = "Windows 10 and above"
+
+        [[params.supported.supportedItem]]
+        icon = "fab fa-apple fa-3x"
+        info = "OSX V.10.10 and above"
+
+        [[params.supported.supportedItem]]
+        icon = "fab fa-ubuntu fa-3x"
+        info = "Ubuntu >= V. 16.04"
+
+        [[params.supported.supportedItem]]
+        icon = "fab fa-linux fa-3x"
+        info = "(Others may also work)"
+
+    # counter
+    [params.counter]
+    enable = true
+    bgImage = "images/backgrounds/hexagons.png"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "> 5000"
+
+    # footer
+    [params.footerUpper]
+    
+        [[params.footerUpper.block]]
+        heading = "PORTFOLIO"
+
+            [[params.footerUpper.block.link]]
+            title = "Consulting"
+            url = "#"
+        
+            [[params.footerUpper.block.link]]
+            title = "Solutions"
+            url = "#"
+
+        [[params.footerUpper.block]]
+        heading = "PARTNERS"
+            [[params.footerUpper.block.link]]
+            title = "References"
+            url = "#"
+        
+            [[params.footerUpper.block.link]]
+            title = "Announcements"
+            url = "#"
+        
+        [[params.footerUpper.block]]
+        heading = "SUPPORT"
+            [[params.footerUpper.block.link]]
+            title = "Enterprise"
+            url = "#"
+        
+            [[params.footerUpper.block.link]]
+            title = "Policy"
+            url = "#"
+
+            [[params.footerUpper.block.link]]
+            title = "Events"
+            url = "#"
+
+        [[params.footerUpper.block]]
+        heading = "COMPANY"
+            [[params.footerUpper.block.link]]
+            title = "About"
+            url = "#"
+        
+            [[params.footerUpper.block.link]]
+            title = "Consol GmbH"
+            url = "#"
+
+            [[params.footerUpper.block.link]]
+            title = "Events"
+            url = "#sites"
+            
+
+    [params.footerLower]
+        [[params.footerLower.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/sakuli_e2e"
+
+        [[params.footerLower.socialIcon]]
+        icon = "tf-ion-social-github"
+        url = "https://github.com/sakuli/sakuli"

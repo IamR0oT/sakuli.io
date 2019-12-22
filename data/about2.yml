@@ -1,0 +1,13 @@
+enable : true
+image : images/about/smarthouse.png
+title : Developers with a penchant for Software Quality
+description : We are a team of specialists dedicated to software stability, performance and quality. We have published various open-source frameworks in the past with different functionalities and aims.
+description2 :  We belive in open platforms, as they guarantee free knowledge transfer and allow continuous thrive, which is why we decided to confluence our tools and knowledge to an allround framework. Our vision is simple but great. Since the best possible test, is a user acceptance test, why not mimick the user?. With a faster growing market and technology, software vulnerability e.g. due to increase of dependencies, grows as well. Therefore testing has become mandatory in every technical branch.
+featuresItem : 
+  - icon : tf-circle-compass
+    title : SEO Optimized
+    content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    
+  - icon : tf-hotairballoon
+    title : Easy Customization
+    content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
